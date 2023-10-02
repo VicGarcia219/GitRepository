@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- The name which appear on the higher tab-->
+    <title>Ecuador ABC</title>
+    
+    <!-- Logo of your web site on the tab-->
+    <link rel="icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fphoto_103430613_wallet-shaded-simple-flat-design-vector-drawing-draft.html&psig=AOvVaw0q4I4KJE4_TnmBgRZlEk7m&ust=1694525058240000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCwkvPTooEDFQAAAAAdAAAAABAF">
+  </head>
+  <body>
+    <h1>First Heading in my website</h1> 
+    <!-- h is the title of the structure -->
+    <h2>Second Heading here</h2>
+    <p> 
+      This is a paragraph <br>
+      <hr> 
+      <!-- Horizontal line -->
+      This is another line
+      <hr>
+      Hola estoy tratando de escribir una linea muy extensa para ver hasta donde llega la informacion en mi pagina web.
+    </p>
+
+    <pre>
+This is an example that the paragraph will be appear 
+  on the same way that you write on the code
+
+This is another example without indentention
+As you see, this one looks different that the last one 
+    </pre>
+    <!-- p is for paragraph or the content of your structure -->
+
+    <a href="https://youtube.com">Click in this link</a>
+    <!-- href(The name of the attribute) is for adding the link on the line that you're already set before and what it containt -->
+    
+    <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" height="200" width="200" alt="It's a dog"> 
+    <!-- img don't need to be closed because we don't write any text here
+    Also in the 'src' you provide the source where it comes from -->
+    <!--
+    heigth = alto
+    width = ancho
+    alt describe your attribute if you set the arrow on the image 
+
+    GOOD PROGRAMMING PRACTICE: DESCRIBE YOUR ATTRIBUTES!!! (<p "title"=""></p>)
+    
+    -->
+
+    <!--          FORMATTING LETTERS       -->
+    <pre>
+      <b>This is a text on bold</b>
+      <strong>This is a text on bold as well, it's just other way to make it bold</strong>
+      
+      <em>Emphasized text on my page</em>
+      <i>You can use i for italic or emphasized letters</i>
+      
+      <mark>This text is highlighted</mark>
+      <!-- You can use "mark" for important information-->
+      <del>Don't click this section</del>
+
+      <ins>This text is underlining</ins>
+      
+      <small>This is quite small</small>
+
+      O<sub>2</sub>
+      e<sup>x</sup>  
+    </pre>
+
+    <!--         HTML COLORS       -->
+    <h1 style="color:orange; background-color:aqua">Hello</h1>
+
+    <!--       Links          -->
+    <a href="https://google.com" target="_blank">CLICK HERE AND GO TO OUR STORE</a>
+    
+    <!-- It's gonna open a new tab-->
+     <a href="https://www.ibm.com" target="_blank">IBM</a>
+
+    <!-- Send me an email:Example-->
+<a href="mailto: sample@sample.com">Send me an email</a>
+    
+     <a href="#">Top of Page</a>
+    <a href="#top">Top of Page</a>
+    <!-- Unordered List -->
+<ul>
+    <li>This is a bullet point </li>
+    <li>The items in this list have no particular order </li>
+    <li>Each item will appear as a bullet, rather than a number </li>
+</ul>
+
+<!-- Ordered List -->
+<ol>
+    <li>This is an ordered list </li>
+    <li>The items in this list have a particular order </li>
+    <li>Each item will be numbered, starting from 1 </li>
+    <li>This is the fourth point in the list </li>
+</ol>
+    <table>
+    <tr>
+        <th>Heading 1</th>
+        <th>Heading 2</th>
+        <th>Heading 3</th>
+    </tr>
+    <tr>
+        <td>H1 - Data Item 1</td>
+        <td>H2 - Data Item 1</td>
+        <td>H3 - Data Item 1</td>
+    </tr>
+    <tr>
+        <td>H1 - Data Item 2</td>
+        <td>H2 - Data Item 2</td>
+        <td>H3 - Data Item 2</td>
+    </tr>
+    <tr>
+        <td>H1 - Data Item 3</td>
+        <td>H2 - Data Item 3</td>
+        <td>H3 - Data Item 3</td>
+    </tr>
+</table>
+
+    <!-- When you want to open a new tab, you have to write target="-balnk" and it's gonna open a new tab automatically and it's not gonna close your currect tab-->
+
+    <!-- HTML Forms -->
+    <!-- It works for collecting data from users. We have to add the input element, it's used to display what kind of form or data we're gonna collect-->
+    <br>
+    <form action="form.html" method="Post">
+      <!-- Name = Name of element. It is used in the HTTP request that is sent to the server as a variable name by the browser.
+      It can be not unique.
+      Associated with the data.
+      
+      ID = It is a unique identifier of the HTML element. Each id attribute must be unique.
+      Not associated with the data within the element.-->
+      <label for="username">Name</label>
+      <input type="text" name="username" id="username"><br>
+      
+      <label for="school">School</label>
+      <input type="text" name="school" id="school"><br>
+
+      
+
+      <label for="aname">Tomi</label>
+      <input type="checkbox" name="aname" id="aname" value="tomi"><br>
+      <label for="aname2">Tim</label>
+      <input type="radio" name="aname2" id="aname2" value="tim">
+      <br>
+
+      <input type="submit" value="Send">
+      
+    </form>
+
+
+
+
+    
+        <h1>The fieldset element</h1>
+
+        <form>
+            <fieldset name="personal_details">
+                <legend>Personal Details</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <label for"ocupation">Ocupation:</label>
+                <input type="text" id="ocupation" name="occupation"><br>
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company"><br>
+                <label for="start">Start Date:</label>
+                <input type="date" id="start" name="start"><br>
+                <label for="end">End Date:</label>
+                <input type="date" id="end" name="end"><br>          
+            </fieldset>
+            
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+    <!--On this example you can look the difference between divs containers and also how there is a space that separate them each others -->
+    <div style ="color:green ; background-color: blue;">
+      <h1>First Div</h1>
+      <b>This is bold</b>
+    </div>
+
+    <div style="color:red ; background-color: purple;">
+      <h2>Another one</h2>
+      <b>Another line</b>
+      
+    </div>
+
+    <!-- IFRAME -->
+    <!-- Display one website window within our webdsite page -->
+    <!-- style="border:none" for deleting the windows borders on our little window within our website -->
+    <iframe src="https://google.com" height="100" width="100" style="border:none"></iframe>
+
+    <!-- SYMBOLS -->
+    <!-- Dolllar, Euro, CopyRight signs, etc, etc ,etc.. -->
+    <pre>This is euro sign &euro;
+This is a Copyright sign &#174
+    </pre>
+
+    
+  </body>
+  
+</html>
